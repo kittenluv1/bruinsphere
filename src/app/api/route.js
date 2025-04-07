@@ -1,3 +1,5 @@
+"use server"
+
 export async function GET(req) {
 	try {
 	  const response = await fetch("https://sa.ucla.edu/RCO/Public/SearchOrganizations", {
